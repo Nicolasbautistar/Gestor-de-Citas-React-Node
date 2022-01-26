@@ -1,0 +1,33 @@
+.botoneraCupo {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: auto;
+  transform:translateX(250px)
+}
+
+.botonesCupo {
+  position: relative;
+  top: 150%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.GrillahorasCupos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em 1.5em;
+  color: var(--text);
+  font-size: 24px;
+  width:150%;
+}
+#horaInicio{
+  width:100%;
+  
+}
+
+#horaFin{
+  width:100%;
+  
+}

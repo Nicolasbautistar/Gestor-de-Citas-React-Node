@@ -1,0 +1,15 @@
+.containerFormulario {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: CENTER;
+    width: 100%;
+    height: 80%;
+    margin-top:60px;
+  }
+  
+  .containerFormulario h4 {
+    font-weight: 900;
+    color: var(--text);
+    font-size: 45px;
+    padding-bottom: 10px;
+  }

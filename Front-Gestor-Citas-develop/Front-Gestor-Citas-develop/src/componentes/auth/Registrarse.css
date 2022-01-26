@@ -1,0 +1,109 @@
+:root {
+  --light: #3d82db;
+  --dark: #13253c;
+  --text: #2c5891;
+}
+
+.containerRegistro {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(
+    100deg,
+    rgba(104, 151, 212, 0.8) 20%,
+    rgba(255, 255, 255, 0.8)
+  );
+}
+
+.containerRegistro2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: CENTER;
+  width: 100%;
+  height: 80%;
+}
+
+.containerRegistro2 h4 {
+  font-weight: 900;
+  color: var(--text);
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.grillaRegistro {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5em 1.5em;
+  color: var(--text);
+  font-size: 24px;
+}
+
+.botoneraRegistro {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: auto;
+  margin-left: 7em;
+  margin-bottom: 7.5em;
+}
+.botonesRegistro {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.tratamientodedatos{
+  position: absolute;
+  display: flex;
+  align-content: center;
+  bottom: 30%;
+  margin: auto;
+  font-size: 12px;
+  line-height: 1.2em;
+}
+.tratamientodedatos input{ 
+  margin: auto;
+}
+
+.tratamientodedatos label{
+  padding-left: 10px;
+}
+
+.selectRegistro{
+  height: auto!important;
+}
+
+.btn_registro {
+  border-radius: 18px !important;
+  margin-bottom: 40px;
+  background-color: #3d82db !important;
+  border: 0 !important;
+  text-align: center !important;
+  padding: 10px 40px;
+  font-size: 22px;
+  width: 100%;
+  margin: auto;
+}
+
+.btn2registro {
+  margin-top: 40px;
+  background-color: #13253c !important;
+}
+
+.logoRegistro {
+  position: absolute;
+  color: var(--light);
+  font-size: 8em;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}

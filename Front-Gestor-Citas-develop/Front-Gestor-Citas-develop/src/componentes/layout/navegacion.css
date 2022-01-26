@@ -1,0 +1,83 @@
+/** Navegacion **/
+:root{
+    --azul: #3D82DB;
+}
+
+
+.sidebar {
+    margin-right: 5rem;
+    background-color: var(--azul);
+    border-radius: 0rem;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    
+}
+
+h2 {
+    font-family: var(--fontTexto);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.navegacion a {
+    display: block;
+    font-family: var(--fontTexto);
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 1.7em;
+    position: relative;
+    padding-left: 7rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+.navegacion a::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 3rem;
+    margin-right: 1rem;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+.navegacion a.odontologos::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f500";
+}
+.navegacion a.sedes::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f015";
+}
+.navegacion a.horario::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f073";
+}
+
+.navegacion a.cupos::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f017";
+}
+.grid {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: left;
+    background-color:rgba(237, 245, 255, 0.6    ) ;
+}
+
+.boton-salir{
+    background: none;
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    color: white;
+    font-size: 2.5em;
+}
